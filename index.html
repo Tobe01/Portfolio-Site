@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tobechi Duru's Portfolio</title>
-    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="Fonts-6/css/all.css">
 </head>
 
 <body style="height: 3800px;"></body>
 
-    <header>
-     <section>
+   
+    <section id="Header section"> <!--This is the header section-->
+      <header>
          <nav class="main-nav">
             <div class="pre-welcome flex m-auto align-middle justify-center">
                 <div class="pre-div h-5 flex w-full m-auto align-middle justify-center">
@@ -22,7 +23,7 @@
                 <div class="left-side lg:mr-0 sm:mr-2 flex m-auto align-middle justify-center cursor-pointer h-full">
                   <img class="name" src="X/IMG_4314.JPG">
                    </div>
-                <div class="middle flex h-14 flex-shrink-0 hidden md:block w-7/12 m-auto align-middle justify-center cursor-pointer whitespace-nowrap">
+                <div class="middle h-14 flex-shrink-0 hidden md:block w-7/12 m-auto align-middle justify-center cursor-pointer whitespace-nowrap">
                   <div class="hello flex flex-1 h-12 m-auto align-middle justify-center">
                        <div class="menu-div cursor-pointer">
                         <span class="home"><i class="fa-solid fa-house"></i></span>
@@ -55,10 +56,13 @@
                      </div>  
                  </div>
            </nav>
-            </section>
         </header>
+    </section> <!--Header section ends here-->
 
-    <div class="background-container flex flex-col m-auto align-middle justify-center">
+
+    <section id="Intro Section"> <!--This is the introduction section-->
+
+      <div class="background-container flex flex-col m-auto align-middle justify-center">
 
         <div class="h-4/5 md:h-2/3 paragraph-div flex flex-col">
 
@@ -67,7 +71,7 @@
             </div>
 
             <div class="slate md:m-auto flex flex-col">
-                <p class="sof pt-2 text-2xl font-bold md:text-40px md:font-bold mb-2">Software Engineer</p>
+                <p class="sof pt-2 text-2xl font-bold md:text-40px md:font-bold mb-2 whitespace-nowrap sm:whitespace-nowrap xs:whitespace-nowrap">Software Engineer</p>
                 <p class="pee text-xl md:text-2xl text-white">
                     "Building tomorrow's solutions today,
                      because the best way to predict the future is to create it."
@@ -75,19 +79,19 @@
             </div>
 
           <div class="plate flex flex-col md:flex-row space-x-0 md:space-x-7">
-            <div class="plate-2 hidden md:block flex cursor-pointer">
+            <div class="plate-2 hidden md:block cursor-pointer">
                 <div class="plate-3 flex">
                     <span class="ideate text-2xl md:text-40px"><i class="fa-regular fa-lightbulb"></i></span>
                     <p class="title">Design</p>
                 </div>
               </div>
-              <div class="plate-2 hidden md:block flex cursor-pointer">
+              <div class="plate-2 hidden md:block cursor-pointer">
                 <div class="plate-3 flex">
                     <span class="ideate text-2xl md:text-40px"><i class="fa-solid fa-code"></i></span>
                     <p class="title">Develop</p>
                 </div>
             </div>
-            <div class="plate-2 hidden md:block flex cursor-pointer">
+            <div class="plate-2 hidden md:block cursor-pointer">
                 <div class="plate-3 flex">
                     <span class="ideate text-2xl md:text-40px"><i class="fa-solid fa-cloud-arrow-up"></i></span>
                     <p class="title">Deploy</p>
@@ -95,27 +99,27 @@
             </div>
 
             <!--needed to this code because of the mobile format-->
-            <div class="plate-2 block md:hidden flex cursor-pointer">
+            <div class="plate-2 block md:hidden cursor-pointer">
                 <div class="plate-3-sample flex">
                     <span class="ideate text-2xl md:text-4xl"><i class="fa-solid fa-code"></i></span>
                     <p class="title">Develop</p>
                 </div>
             </div>
                 <!--needed to this code because of the mobile format-->
-            <div class="plate-2 block md:hidden flex cursor-pointer">
+            <div class="plate-2 block md:hidden cursor-pointer">
                 <div class="plate-3-sample flex">
                     <span class="ideate text-2xl md:text-4xl"><i class="fa-solid fa-cloud-arrow-up"></i></span>
                     <p class="title">Deploy</p>
                 </div>
             </div>
 
-            <div class="plate-2 hidden md:block flex cursor-pointer">
+            <div class="plate-2 hidden md:block cursor-pointer">
                 <div class="plate-3 flex">
                     <span class="ideate text-2xl md:text-40px"><i class="fa-brands fa-staylinked"></i></span>
                     <p class="title">Migrate</p>
                 </div>
             </div>
-            <div class="plate-2 hidden md:block flex cursor-pointer">
+            <div class="plate-2 hidden md:block cursor-pointer">
                 <div class="plate-3 flex">
                     <span class="ideate text-2xl md:text-40px"><i class="fa-regular fa-envelope"></i></span>
                     <p class="title">Email</p>
@@ -123,14 +127,17 @@
              </div>
             </div>
         
-            <div class="xtra-btn space-x-2 flex block md:hidden">
+            <div class="xtra-btn space-x-2 block md:hidden">
                 <button class="xtra-btn1"><span class="xtra-btn2-div"><i class="fa-solid fa-phone"></i></span>call</button>
-                <button class="xtra-btn1"><span class="xtra-btn1-div"><i class="fa-regular fa-envelope"></i></span>Email</button>
+                <button class="xtra-btn1"><span class="xtra-btn1-div" onclick="location.href='https://gmail.com'"><i class="fa-regular fa-envelope"></i></span>Email</button>
             </div>
         </div>
    </div>
 
- <section>
+    </section><!--Introduction section ends here-->
+
+
+    <section id="About Section"> <!--This is the about Section-->
 
         <div class="bio white-space-nowrap flex flex-col-reverse md:flex-row flex-shrink-0 flex-1">
             <div class="bio-div mt-0 md:mt-12 white-space-nowrap flex flex-shrink-0 flex-1 flex-col">
@@ -139,8 +146,8 @@
                 </div>
                 <div class="white-space-nowrap flex-shrink-0 pee-div space-y-2 flex flex-col">
                         <p class="bio-pee">        
-                            Hi, I’m Tobechi, A seasoned full-stack software engineer who thrives
-                            on intricate code architecture and solving complex technical puzzles I’ve
+                            Hi, I'm Tobechi, A seasoned full-stack software engineer who thrives
+                            on intricate code architecture and solving complex technical puzzles I've
                             architected and built robust, efficient, and scalable software applications 
                             across various domains, from web and mobile to cloud-based systems that 
                             can handle millions of requests, focusing on performance, security, and maintainability.      
@@ -161,7 +168,7 @@
                             <p class="bio-pee ">
                                 My goal is to build software systems that not only function
                                 flawlessly but also protect user privacy, data, and security.
-                                “Join me in building tomorrow’s solutions today.”
+                                “Join me in building tomorrow's solutions today.”
                             </p>
                         </div>
                     <div class="member-div whitespace-nowrap"><button class="member-button py-2 px-3" onclick="location.href='https://drive.google.com/file/d/15jdvD7IhK0ngXvfphqPSrg 3NpU5PUnx/view?usp=drivesdk'">Download Resume</button></div>
@@ -172,13 +179,14 @@
             <div class="image4-div m-auto align-middle justify-center">
                 <img class="image4 w-80" src="X/IMG_E9607.JPG">
             </div>
-       </div>
- </section>
+        </div>
+ 
+    </section> <!--About section ends here-->
 
    
- <section>
+    <section id="Skills & Tools section"> <!--This is the skills & tools section-->
 
-    <div class="skills md:h-64 flex-1 flex flex-col m-auto align-middle justify-center">
+      <div class="skills md:h-64 flex-1 flex flex-col m-auto align-middle justify-center">
         
         <div class="flex cursor-pointer m-auto align-middle h-5 justify-center">
             <p class="tools">Skills/Tools</p>
@@ -259,9 +267,9 @@
             </div>
 
             <div class="cardss block md:hidden">
-                <div class="flex cards2 mt-4 space-y-5">
-                    <span class="ideateee"><img src="x/IMG_E4666.JPG"></span>
-                    <p class="title5">TAILWIND</p>
+                <div class="flex cards2">
+                    <span class="ideatee"><i class="fa-brands fa-java"></i></span>
+                    <p class="title5">JAVA</p>
                 </div>  
             </div>
 
@@ -275,15 +283,15 @@
         </div>
     </div>     
 
-  
         <div class="resume-div flex flex-1 m-auto align-middle justify-center">
             <button class="resume-button py-2 px-2" onclick="location.href='https://drive.google.com/file/d/1I2oGycKc2IaMnCJXCR-eZUV91XxsIOys/view?usp=drivesdk'">Professional Membership/Certifications
             </button>
         </div>
 
-    </section>
+    </section> <!--Skills and tools section ends here-->
 
-    <section id="projectssection">
+
+    <section id="Projects Section"> <!--This is the projects section-->
 
     <!--Medium screen, height 1100px-->
 
@@ -300,16 +308,16 @@
                         </div>
                     </div>
                     
-                    <div class="r-side flex space-x-2">
+                    <div class="r-side text-3xl sm:text-2xl xm:text-2xl flex space-x-2 whitespace-nowrap sm:whitespace-nowrap xs:whitespace-nowrap">
                         <span class="idea"><i class="fa-solid fa-medal"></i></span>
-                        <h1 class="comeee">PROJECTS CATALOG</h1>
+                        <h1 class="comeee whitespace-nowrap sm:whitespace-nowrap xs:whitespace-nowrap">PROJECTS CATALOG</h1>
                     </div>
                 
                 </div>
 
                   <!--Medium screen, height 1100px-->
 
-                <div class="projects-sub-div h-full grid grid-cols-1 md:grid-cols-3 gap-5">
+                <div class="projects-sub-div h-full grid grid-cols-1 xs:grid xs:grid-cols-1 sm:grid sm:grid-cols-1 md:grid-cols-3 gap-5">
                 
                    <div class="e-commerce flex flex-1 flex-col">
                     
@@ -336,7 +344,7 @@
                         </div>
                      </div>
                         <div class="second-btn-div pl-1">
-                            <button class="click mr-auto" onclick="location.href='https://github.com/Tobe01/Linktree-Project:www.linktree.com landing page project'">View</button> 
+                            <button class="click mr-auto" onclick="location.href='https://github.com/Tobe01/Linktree-Project'">View</button> 
                         </div>
                     </div>
 
@@ -356,7 +364,6 @@
                           </div>
                           <div class="btn-div cursor-alias space-x-1">
                             <button class="btn1">Boostrap</button> 
-                            <button class="btn2">Tailwind</button> 
                             <button class="btn3">Javascript</button>
                             <button class="btn1">React</button>
                         </div>
@@ -393,7 +400,7 @@
                         <div class="stack-div">
                             <p class="stacks">Designed this user fiendly mobile</p> 
                             <p class="stacks">dictionary providing instant access to</p>
-                            <p class="stacks">a vast database of words and their meanings</p>
+                            <p class="stacks">a vast database of words and meanings</p>
                         </div>
                      </div>
                         <div class="second-btn-div pl-1">
@@ -483,12 +490,12 @@
                         </div>
                         <div class="stack-div">
                             <p class="stacks">developed this YouTube clone</p>
-                            <p class="stacks">providing users with video sharing options</p>  
+                            <p class="stacks">providing users with video sharing option</p>  
                             <p class="stacks">and interaction</p>
                         </div>
                      </div>
                         <div class="second-btn-div pl-1">
-                            <button class="click mr-auto" onclick="location.href='https://github.com/Tobe01/YouTube-Project: A clone of www.youtube.com'">View</button> 
+                            <button class="click mr-auto" onclick="location.href='https://github.com/Tobe01/YouTube-Project'">View</button> 
                         </div>
                     </div>   
 
@@ -503,13 +510,14 @@
             </div>  
         </div>
     
-    </section>
+    </section> <!--Projects section ends here-->
    
-<section>
+
+    <section id="Expertise Section"> <!--This is the expertise section-->
 
     <!--Medium screen, height 900px-->
    
-    <div class="omni flex z-10 flex-1 flex-col">
+     <div class="omni flex z-10 flex-1 flex-col">
 
         
         <div class="projects-title flex flex-col">
@@ -592,11 +600,14 @@
                 <button class="app-btn" onclick="alert('Active soon!')">Read More</button>
             </div>
         </div>
-    
-
+  
       </div>
-
+  
+    </section> <!---Expertise section ends here-->
     
+
+    <section id="Contacts Section"> <!--This is the Contacts section-->
+
         <div class="projects-title2 flex flex-col">
                         
             <div class="expoo flex space-x-4">
@@ -617,7 +628,7 @@
 
         <div>
 
-        <div class="flex md:flex-row flex-col flex-1 m-auto align-middle justify-center md:space-x-6 space-y-3 md:space-y-0 ml-5">
+        <div class="styles flex md:flex-row flex-col flex-1 m-auto align-middle justify-center md:space-x-6 space-y-3 md:space-y-0 ml-5">
 
           <div class="xtra4 flex">
             <span class="xtra cursor-pointer" onclick="location.href='https://gmail.com'"><i class="fa-regular fa-envelope"></i></span>
@@ -644,28 +655,26 @@
             </div>
         </div>
 
-                    <div class="xtra4 flex">
-                        <span class="xtra cursor-pointer" onclick="location.href='https://github.com/Tobe01'"><i class="fa-brands fa-github"></i></span>
-                        <div class="xtra1 flex flex-col">
-                            <p class="xtra2 ">GitHub
-                            <p class="xtra3">Tobe01</p>
-                        </div>
-                        </div>
-                   </div>
-             </div>
+          <div class="xtra4 flex">
+              <span class="xtra cursor-pointer" onclick="location.href='https://github.com/Tobe01'"><i class="fa-brands fa-github"></i></span>
+              <div class="xtra1 flex flex-col">
+                  <p class="xtra2 ">GitHub
+                  <p class="xtra3">Tobe01</p>
+              </div>
+              </div>
+          </div>
+            </div>
 
+         </div>
         </div>
-
-
-        </div>
-
     </div>
 
-</section>
+    </section> <!--Contacts Section ends here-->
  
-<section id="FOOTER SECTION">
+
+    <section id="Footer Section"> <!--This is the footer section-->
    
-    <div class="footer flex flex-col">
+     <div class="footer flex flex-col">
 
         <!--Footer0 Medium screen margin: auto; align-items: center; height: 80%-->
         <div class="footer0 flex flex-col">
@@ -727,17 +736,10 @@
 
           </div>
     </div>
-
 </div>
 
-
-</section>
+    </section> <!--Footer section ends here-->
  
-
-
-
-
-
 </body>
 
 </html>
