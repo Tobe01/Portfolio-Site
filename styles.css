@@ -75,7 +75,7 @@ body {
   margin: 0 10px 0 -20px;
 }
 
- .xtra-btn2-div {
+.xtra-btn2-div {
   font-size: 20px;
   margin: 0 10px 0 -10px;
 }
@@ -331,7 +331,6 @@ body {
 }
 
 .projects-sub-div {
-  margin-top: 20px;   
   width: 85%;
   margin: auto;
   align-items: center;
@@ -340,7 +339,6 @@ body {
   background-color: rgb(195, 198, 209);
   padding: 15px 20px 15px 20px;
   border-radius: 10px;
-  min-width: 350px;
 }
 
 .projects-title {
@@ -492,18 +490,46 @@ body {
 
 .click {
   background-color: white;
-  width: 100%;
+  width: 30%;
   height: 94%;
-  color:  rgb(24, 49, 83);;
+  color:  rgb(24, 49, 83);
   border-radius: 8px;
   font-weight: bold;
+  border: 1px solid rgb(24, 49, 83);;
   box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+.click2 {
+ background-color: rgb(24, 49, 83);
+ height: 97%;
+ color: white;
+ width: 40%;
+ border-radius: 8px;
+ box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.2);
+ white-space: nowrap;
+}
+
+.click2:hover{
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: rgb(24, 49, 83);
+  font-weight: bold;
+}
+
+.click2:active{
+  background-color: rgb(24, 49, 83);
+  color: white;
 }
 
 .click:hover{
   background-color:  rgb(24, 49, 83);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
   color: white;
+}
+
+.click:active{
+  background-color: white;
+  color:  rgb(24, 49, 83);
 }
 
 .btn1 {
@@ -536,14 +562,10 @@ body {
   cursor: auto;
 }
 
-.btn-div {
-  background-color: antiquewhite;
-}
-
 .second-btn-div {
   align-items: center;
   justify-content: center;
-  width: 105px;
+  width: 100%;
   height: 35px;
 }
 
@@ -565,12 +587,19 @@ body {
   color: white;
   border-radius: 8px;
   margin-top: 8PX;
-  font-weight: bold;
   box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.2);
 }
 
 .member-button:hover{
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color:  rgb(24, 49, 83);
+  font-weight: bold;
+}
+
+.member-button:active{
+  background-color: rgb(24, 49, 83);
+  color: white;
 }
 
 .cardz {
