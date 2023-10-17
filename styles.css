@@ -407,6 +407,7 @@ body {
 .comeee {
   margin-top: 8px;
   color: white;
+  font-size: 27px;
 }
 
 .e-commerce {
@@ -500,6 +501,7 @@ body {
 }
 
 .click2 {
+ font-size: 15px;
  background-color: rgb(24, 49, 83);
  height: 97%;
  color: white;
@@ -745,7 +747,7 @@ body {
   width: 110px;
   border-radius: 8px;
   font-weight: bold;
-  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.1);
 }
     
 .app-btn:hover{
@@ -805,6 +807,7 @@ body {
  width: 33%;
  text-align: center;
  color: white;
+ margin-left: 8px;
 }
 
 .footer1-sub-div2 {
@@ -818,6 +821,7 @@ body {
 }
 
 .links {
+  font-size: 15px;
   width: 100%;
 }
 
