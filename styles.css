@@ -255,7 +255,7 @@ body {
 
 .image4 {
   z-index: 100;
-  margin-top: 37px;
+  margin-top: 41px;
 }
 
 .image4-div {
@@ -501,12 +501,11 @@ body {
 }
 
 .click2 {
- font-size: 15px;
+ font-size: 16px;
  background-color: rgb(24, 49, 83);
- height: 97%;
+ height: 93%;
  color: white;
- width: 40%;
- padding: 0 8px 0 5px;
+ width: 35%;
  border-radius: 8px;
  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.2);
  white-space: nowrap;
