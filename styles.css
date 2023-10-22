@@ -204,6 +204,11 @@ body {
   border: 1px gold solid;
 }
 
+.plate-2:active {
+  border: 1px gold solid;
+  font: gold;
+}
+
 .title {
   color: white;
   font-size: 20px;
